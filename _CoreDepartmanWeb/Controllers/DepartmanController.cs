@@ -15,7 +15,7 @@ namespace _CoreDepartmanWeb.Controllers
         [HttpGet]
         public IActionResult YeniDepartmanEkle() 
         {
-            ViewBag.baslik = "Yeni Departman Ekle";
+            ViewBag.baslik = "Yeni Departman Ekleme";
 
             return View();
         }
